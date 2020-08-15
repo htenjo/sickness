@@ -1,0 +1,29 @@
+.r_title {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.r_container {
+    margin: 50px 100px 50px 100px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 5px;
+}
+
+.r_container section {
+    margin: 20px 0px 20px 0px;
+}
+
+.container {
+    text-align: center;
+}
+
+div.chart {
+    margin: 0 auto !important;
+    display: inline-block;
+}
+
+@media print {
+    footer {
+        page-break-after: always;
+    }
+}
